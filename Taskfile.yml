@@ -1,0 +1,59 @@
+version: '2'
+
+# Variables
+vars:
+  FQDN : https://medium.com/i35-267
+
+tasks:
+  top:
+    desc: Topページ
+    cmds:
+      - open {{.FQDN}}
+
+tasks:
+  presentation:
+    desc: 登壇系資料を公開している記事一覧
+    cmds:
+      - open {{.FQDN}}/tagged/presentation
+
+tasks:
+  agile:
+    desc: Agile関連の記事一覧
+    cmds:
+      - open  {{.FQDN}}/tagged/agile
+
+tasks:
+  lean:
+    desc: Lean開発関連の記事一覧
+    cmds:
+      - open  {{.FQDN}}/tagged/lean
+
+tasks:
+  vsm:
+    desc: VSM関連の記事一覧
+    cmds:
+      - open {{.FQDN}}/tagged/vsm
+
+tasks:
+  zenhub:
+    desc: ZenHub関連の記事一覧
+    cmds:
+      - open {{.FQDN}}/tagged/zenhub
+
+tasks:
+  sre:
+    desc: SRE関連の記事一覧
+    cmds:
+      - open {{.FQDN}}/tagged/sre
+
+tasks:
+  repost:
+    desc: Report関連の記事一覧
+    cmds:
+      - open {{.FQDN}}/tagged/report
+
+tasks:
+  writer:
+    desc: Writer info
+    cmds:
+      - open https://medium.com/@i35_267
