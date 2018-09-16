@@ -57,3 +57,11 @@ tasks:
     desc: Writer info
     cmds:
       - open https://medium.com/@i35_267
+      - open https://qiita.com/i35_267
+      - open https://www.gitshowcase.com/i35-267-m
+
+tasks:
+  twitter:
+    desc: Twitter
+    cmds:
+      - open https://twitter.com/i35_267

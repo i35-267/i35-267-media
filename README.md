@@ -7,14 +7,16 @@
 
 ```
 $ task
-task: No argument given, trying default task
 task: Available tasks for this project:
 * agile: 	Agile関連の記事一覧
+* gitshowcase: 	gitshowcase
 * lean: 	Lean開発関連の記事一覧
 * presentation: 登壇系資料を公開している記事一覧
+* qiita: 	Qiita
 * repost: 	Report関連の記事一覧
 * sre: 		SRE関連の記事一覧
-* top: 	Topページ
+* top: 		Topページ
+* twitter: 	Twitter
 * vsm: 		VSM関連の記事一覧
 * writer: 	Writer info
 * zenhub: 	ZenHub関連の記事一覧
